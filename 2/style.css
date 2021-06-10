@@ -1,0 +1,77 @@
+.clock
+{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left:35%;
+    right: 30%;
+    top:30%;
+    border-radius: 100%;
+    bottom: 20%;
+    border: 2px solid midnightblue;
+}
+.min
+{
+    position: absolute;
+    width: 1%;
+    left:48.9%;
+    height: 36%;
+    bottom: 50%;
+    background-color:black;
+    border-radius:50% 50% 0% 0%;
+    border: 2px solid black;
+    transform-origin:0% 100%;
+    transform:rotate(40deg);
+}
+.hour
+{
+    position: absolute;
+    width: 1%;
+    left:48.9%;
+    height: 30%;
+    bottom: 50%;
+    background-color: black;
+    border-radius:50% 50% 0% 0%;
+    border: 2px solid black;
+    transform-origin:0% 100%;
+    transform:rotate(90deg);
+}
+.sec
+{
+    position: absolute;
+    width: 0.7%;
+    left:48.9%;
+    height: 45%;
+    bottom: 50%;
+    background-color: black;
+    border-radius:50% 50% 0% 0%;
+    border: 2px solid black;
+    transform-origin:0% 100%;
+    transform:rotate(70deg);
+}
+.elip{
+    position: absolute;
+    top:45%;
+    left:45%;
+    height: 8%;
+    width: 8%;
+    border-radius: 100%;
+    background-color: black;
+    border: 2px solid black;
+}
+
+.image
+{
+    position: absolute;
+	high:100%;
+	width:100%;
+    /*left:30%;*/
+    /*right: 30%;*/
+    /*bottom: 20%;*/
+    /*top:20%;*/
+}
+
+.timeto
+{
+    display: none;
+}
